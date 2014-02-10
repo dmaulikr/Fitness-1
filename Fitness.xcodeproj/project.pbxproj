@@ -19,6 +19,16 @@
 		BB0EE34718A3ADAB00E3EA63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0EE32F18A3ADAB00E3EA63 /* UIKit.framework */; };
 		BB0EE34F18A3ADAB00E3EA63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB0EE34D18A3ADAB00E3EA63 /* InfoPlist.strings */; };
 		BB0EE35118A3ADAB00E3EA63 /* FitnessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0EE35018A3ADAB00E3EA63 /* FitnessTests.m */; };
+		BB11E4BE18A8C9C400406313 /* ISUserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB11E4BC18A8C9C400406313 /* ISUserProfileViewController.m */; };
+		BB11E4BF18A8C9C400406313 /* ISUserProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB11E4BD18A8C9C400406313 /* ISUserProfileViewController.xib */; };
+		BB11E4C918A8CA5900406313 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BB11E4C218A8CA5900406313 /* bg.png */; };
+		BB11E4CA18A8CA5900406313 /* date btn.png in Resources */ = {isa = PBXBuildFile; fileRef = BB11E4C318A8CA5900406313 /* date btn.png */; };
+		BB11E4CB18A8CA5900406313 /* head bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BB11E4C418A8CA5900406313 /* head bg.png */; };
+		BB11E4CC18A8CA5900406313 /* mid img.png in Resources */ = {isa = PBXBuildFile; fileRef = BB11E4C518A8CA5900406313 /* mid img.png */; };
+		BB11E4CD18A8CA5900406313 /* register btn.png in Resources */ = {isa = PBXBuildFile; fileRef = BB11E4C618A8CA5900406313 /* register btn.png */; };
+		BB11E4CE18A8CA5900406313 /* text box bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BB11E4C718A8CA5900406313 /* text box bg.png */; };
+		BB11E4CF18A8CA5900406313 /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = BB11E4C818A8CA5900406313 /* text.png */; };
+		BB11E4D218A8CD3D00406313 /* helvetica-world.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB11E4D118A8CD3D00406313 /* helvetica-world.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,17 @@
 		BB0EE34C18A3ADAB00E3EA63 /* FitnessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FitnessTests-Info.plist"; sourceTree = "<group>"; };
 		BB0EE34E18A3ADAB00E3EA63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BB0EE35018A3ADAB00E3EA63 /* FitnessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitnessTests.m; sourceTree = "<group>"; };
+		BB11E4BB18A8C9C400406313 /* ISUserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISUserProfileViewController.h; sourceTree = "<group>"; };
+		BB11E4BC18A8C9C400406313 /* ISUserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISUserProfileViewController.m; sourceTree = "<group>"; };
+		BB11E4BD18A8C9C400406313 /* ISUserProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISUserProfileViewController.xib; sourceTree = "<group>"; };
+		BB11E4C218A8CA5900406313 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		BB11E4C318A8CA5900406313 /* date btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "date btn.png"; sourceTree = "<group>"; };
+		BB11E4C418A8CA5900406313 /* head bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head bg.png"; sourceTree = "<group>"; };
+		BB11E4C518A8CA5900406313 /* mid img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mid img.png"; sourceTree = "<group>"; };
+		BB11E4C618A8CA5900406313 /* register btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register btn.png"; sourceTree = "<group>"; };
+		BB11E4C718A8CA5900406313 /* text box bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text box bg.png"; sourceTree = "<group>"; };
+		BB11E4C818A8CA5900406313 /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
+		BB11E4D118A8CD3D00406313 /* helvetica-world.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "helvetica-world.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +128,8 @@
 		BB0EE33118A3ADAB00E3EA63 /* Fitness */ = {
 			isa = PBXGroup;
 			children = (
+				BB11E4C018A8CA5900406313 /* resources */,
+				BB11E4BA18A8C96F00406313 /* screens */,
 				BB0EE33A18A3ADAB00E3EA63 /* ISAppDelegate.h */,
 				BB0EE33B18A3ADAB00E3EA63 /* ISAppDelegate.m */,
 				BB0EE33D18A3ADAB00E3EA63 /* Images.xcassets */,
@@ -142,6 +165,47 @@
 				BB0EE34D18A3ADAB00E3EA63 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB11E4BA18A8C96F00406313 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				BB11E4BB18A8C9C400406313 /* ISUserProfileViewController.h */,
+				BB11E4BC18A8C9C400406313 /* ISUserProfileViewController.m */,
+				BB11E4BD18A8C9C400406313 /* ISUserProfileViewController.xib */,
+			);
+			name = screens;
+			sourceTree = "<group>";
+		};
+		BB11E4C018A8CA5900406313 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB11E4D018A8CD2000406313 /* fonts */,
+				BB11E4C118A8CA5900406313 /* user profile */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		BB11E4C118A8CA5900406313 /* user profile */ = {
+			isa = PBXGroup;
+			children = (
+				BB11E4C218A8CA5900406313 /* bg.png */,
+				BB11E4C318A8CA5900406313 /* date btn.png */,
+				BB11E4C418A8CA5900406313 /* head bg.png */,
+				BB11E4C518A8CA5900406313 /* mid img.png */,
+				BB11E4C618A8CA5900406313 /* register btn.png */,
+				BB11E4C718A8CA5900406313 /* text box bg.png */,
+				BB11E4C818A8CA5900406313 /* text.png */,
+			);
+			path = "user profile";
+			sourceTree = "<group>";
+		};
+		BB11E4D018A8CD2000406313 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BB11E4D118A8CD3D00406313 /* helvetica-world.ttf */,
+			);
+			name = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +284,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB11E4CA18A8CA5900406313 /* date btn.png in Resources */,
+				BB11E4CB18A8CA5900406313 /* head bg.png in Resources */,
+				BB11E4BF18A8C9C400406313 /* ISUserProfileViewController.xib in Resources */,
+				BB11E4CC18A8CA5900406313 /* mid img.png in Resources */,
+				BB11E4CD18A8CA5900406313 /* register btn.png in Resources */,
+				BB11E4D218A8CD3D00406313 /* helvetica-world.ttf in Resources */,
+				BB11E4CE18A8CA5900406313 /* text box bg.png in Resources */,
+				BB11E4CF18A8CA5900406313 /* text.png in Resources */,
 				BB0EE33618A3ADAB00E3EA63 /* InfoPlist.strings in Resources */,
+				BB11E4C918A8CA5900406313 /* bg.png in Resources */,
 				BB0EE33E18A3ADAB00E3EA63 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB11E4BE18A8C9C400406313 /* ISUserProfileViewController.m in Sources */,
 				BB0EE33C18A3ADAB00E3EA63 /* ISAppDelegate.m in Sources */,
 				BB0EE33818A3ADAB00E3EA63 /* main.m in Sources */,
 			);
@@ -363,7 +437,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fitness/Fitness-Prefix.pch";
 				INFOPLIST_FILE = "Fitness/Fitness-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -376,7 +452,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fitness/Fitness-Prefix.pch";
 				INFOPLIST_FILE = "Fitness/Fitness-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -442,6 +520,7 @@
 				BB0EE35618A3ADAB00E3EA63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB0EE35718A3ADAB00E3EA63 /* Build configuration list for PBXNativeTarget "FitnessTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +529,7 @@
 				BB0EE35918A3ADAB00E3EA63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
