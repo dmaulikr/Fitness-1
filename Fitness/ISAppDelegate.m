@@ -7,15 +7,49 @@
 //
 
 #import "ISAppDelegate.h"
-#import "ISUserProfileViewController.h"
+#import "ISProfileViewController.h"
+#import "ISMenuViewController.h"
+#import "ISDashboardViewController.h"
+#import "MMExampleDrawerVisualStateManager.h"
 
 @implementation ISAppDelegate
 
+- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    ISDashboardViewController *dashboardVC = [[ISDashboardViewController alloc]initWithNibName:nil bundle:nil];
+    ISMenuViewController *leftVC = [[ISMenuViewController alloc]initWithNibName:nil bundle:nil];
+    UINavigationController *navVC = [[UINavigationController alloc]initWithRootViewController:dashboardVC];
+   
+    
+    self.drawerController= [[MMDrawerController alloc]initWithCenterViewController:navVC leftDrawerViewController:leftVC];
+    
+    
+    [self.drawerController
+     setDrawerVisualStateBlock:^(MMDrawerController *drawerController, MMDrawerSide drawerSide, CGFloat percentVisible) {
+         MMDrawerControllerDrawerVisualStateBlock block;
+         block = [[MMExampleDrawerVisualStateManager sharedManager]
+                  drawerVisualStateBlockForDrawerSide:drawerSide];
+         if(block){
+             block(drawerController, drawerSide, percentVisible);
+         }
+     }];
+    
+    // [[MMExampleDrawerVisualStateManager sharedManager] setLeftDrawerAnimationType:MMDrawerAnimationTypeSwingingDoor];
+    
+    [self.drawerController setShowsShadow:NO];
+    [self.drawerController setMaximumLeftDrawerWidth:275.0];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window setRootViewController:self.drawerController];
+    return YES;
+}
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.]
-    [self.window setRootViewController:[[ISUserProfileViewController alloc]initWithNibName:@"ISUserProfileViewController" bundle:nil ]];
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    // Override point for customization after application launch.]
+//    [self.window setRootViewController:[[ISProfileViewController alloc]initWithNibName:nil bundle:nil ]];
     
     
     

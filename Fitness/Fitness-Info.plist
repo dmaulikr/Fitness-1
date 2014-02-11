@@ -24,9 +24,18 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>ReplacementFonts</key>
+	<dict>
+		<key>Courier</key>
+		<string>HelveticaNeueLTCom-Roman</string>
+		<key>Arial</key>
+		<string>HelveticaWorld-Regular</string>
+	</dict>
 	<key>UIAppFonts</key>
 	<array>
 		<string>helvetica-world.ttf</string>
+		<string>helvetica-neue-lt-com-55-roman.ttf</string>
+		<string>comic sans.ttf</string>
 	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>

@@ -8,6 +8,26 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ISProfileViewController : UIViewController
+@interface ISProfileViewController : UIViewController <UITextFieldDelegate>
 
+@property (weak, nonatomic) IBOutlet UIScrollView *contentScrollView;
+
+@property (weak, nonatomic) IBOutlet UIButton *maleRB;
+@property (weak, nonatomic) IBOutlet UIButton *femaleRB;
+- (IBAction)maleRBClicked:(id)sender;
+- (IBAction)femaleRBClicked:(id)sender;
+
+
+@end
+
+
+
+
+
+
+
+
+//-----------------------------custom view with keyboard dismiss-------------
+
+@interface  UIViewDismissKB:UIView
 @end
