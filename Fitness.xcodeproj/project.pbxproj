@@ -29,13 +29,10 @@
 		BB11E4CE18A8CA5900406313 /* text box bg.png in Resources */ = {isa = PBXBuildFile; fileRef = BB11E4C718A8CA5900406313 /* text box bg.png */; };
 		BB11E4CF18A8CA5900406313 /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = BB11E4C818A8CA5900406313 /* text.png */; };
 		BB11E4D218A8CD3D00406313 /* helvetica-world.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB11E4D118A8CD3D00406313 /* helvetica-world.ttf */; };
-<<<<<<< HEAD
 		BB3C66CB18A9EA2800CAA240 /* ISProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB3C66C918A9EA2800CAA240 /* ISProfileViewController.m */; };
 		BB3C66CC18A9EA2800CAA240 /* ISProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB3C66CA18A9EA2800CAA240 /* ISProfileViewController.xib */; };
 		BBA68BF518A8FF540021BC73 /* radio button checked.png in Resources */ = {isa = PBXBuildFile; fileRef = BBA68BF318A8FF540021BC73 /* radio button checked.png */; };
 		BBA68BF618A8FF540021BC73 /* radio button unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = BBA68BF418A8FF540021BC73 /* radio button unchecked.png */; };
-=======
->>>>>>> 4ca444658f0fb79331a1f559ddc83f6ef738e7ac
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,14 +73,11 @@
 		BB11E4C718A8CA5900406313 /* text box bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text box bg.png"; sourceTree = "<group>"; };
 		BB11E4C818A8CA5900406313 /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
 		BB11E4D118A8CD3D00406313 /* helvetica-world.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "helvetica-world.ttf"; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		BB3C66C818A9EA2800CAA240 /* ISProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISProfileViewController.h; sourceTree = "<group>"; };
 		BB3C66C918A9EA2800CAA240 /* ISProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISProfileViewController.m; sourceTree = "<group>"; };
 		BB3C66CA18A9EA2800CAA240 /* ISProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISProfileViewController.xib; sourceTree = "<group>"; };
 		BBA68BF318A8FF540021BC73 /* radio button checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio button checked.png"; sourceTree = "<group>"; };
 		BBA68BF418A8FF540021BC73 /* radio button unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio button unchecked.png"; sourceTree = "<group>"; };
-=======
->>>>>>> 4ca444658f0fb79331a1f559ddc83f6ef738e7ac
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,12 +182,9 @@
 				BB11E4BB18A8C9C400406313 /* ISUserProfileViewController.h */,
 				BB11E4BC18A8C9C400406313 /* ISUserProfileViewController.m */,
 				BB11E4BD18A8C9C400406313 /* ISUserProfileViewController.xib */,
-<<<<<<< HEAD
 				BB3C66C818A9EA2800CAA240 /* ISProfileViewController.h */,
 				BB3C66C918A9EA2800CAA240 /* ISProfileViewController.m */,
 				BB3C66CA18A9EA2800CAA240 /* ISProfileViewController.xib */,
-=======
->>>>>>> 4ca444658f0fb79331a1f559ddc83f6ef738e7ac
 			);
 			name = screens;
 			sourceTree = "<group>";
@@ -210,11 +201,8 @@
 		BB11E4C118A8CA5900406313 /* user profile */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				BBA68BF318A8FF540021BC73 /* radio button checked.png */,
 				BBA68BF418A8FF540021BC73 /* radio button unchecked.png */,
-=======
->>>>>>> 4ca444658f0fb79331a1f559ddc83f6ef738e7ac
 				BB11E4C218A8CA5900406313 /* bg.png */,
 				BB11E4C318A8CA5900406313 /* date btn.png */,
 				BB11E4C418A8CA5900406313 /* head bg.png */,
@@ -310,7 +298,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				BB3C66CC18A9EA2800CAA240 /* ISProfileViewController.xib in Resources */,
 				BB11E4CA18A8CA5900406313 /* date btn.png in Resources */,
 				BBA68BF518A8FF540021BC73 /* radio button checked.png in Resources */,
@@ -318,12 +305,6 @@
 				BB11E4BF18A8C9C400406313 /* ISUserProfileViewController.xib in Resources */,
 				BB11E4CC18A8CA5900406313 /* mid img.png in Resources */,
 				BBA68BF618A8FF540021BC73 /* radio button unchecked.png in Resources */,
-=======
-				BB11E4CA18A8CA5900406313 /* date btn.png in Resources */,
-				BB11E4CB18A8CA5900406313 /* head bg.png in Resources */,
-				BB11E4BF18A8C9C400406313 /* ISUserProfileViewController.xib in Resources */,
-				BB11E4CC18A8CA5900406313 /* mid img.png in Resources */,
->>>>>>> 4ca444658f0fb79331a1f559ddc83f6ef738e7ac
 				BB11E4CD18A8CA5900406313 /* register btn.png in Resources */,
 				BB11E4D218A8CD3D00406313 /* helvetica-world.ttf in Resources */,
 				BB11E4CE18A8CA5900406313 /* text box bg.png in Resources */,
@@ -349,10 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				BB3C66CB18A9EA2800CAA240 /* ISProfileViewController.m in Sources */,
-=======
->>>>>>> 4ca444658f0fb79331a1f559ddc83f6ef738e7ac
 				BB11E4BE18A8C9C400406313 /* ISUserProfileViewController.m in Sources */,
 				BB0EE33C18A3ADAB00E3EA63 /* ISAppDelegate.m in Sources */,
 				BB0EE33818A3ADAB00E3EA63 /* main.m in Sources */,
