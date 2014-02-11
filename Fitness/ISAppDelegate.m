@@ -7,6 +7,7 @@
 //
 
 #import "ISAppDelegate.h"
+#import "ISUserProfileViewController.h"
 
 @implementation ISAppDelegate
 
@@ -14,7 +15,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.]
-    
+    [self.window setRootViewController:[[ISUserProfileViewController alloc]initWithNibName:@"ISUserProfileViewController" bundle:nil ]];
     
     
     
