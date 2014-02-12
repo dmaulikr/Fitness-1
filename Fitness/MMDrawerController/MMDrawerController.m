@@ -167,11 +167,15 @@ static NSString *MMDrawerOpenSideKey = @"MMDrawerOpenSide";
         [self setCenterViewController:centerViewController];
         [self setLeftDrawerViewController:leftDrawerViewController];
         [self setRightDrawerViewController:rightDrawerViewController];
+        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackTranslucent];
+        self.wantsFullScreenLayout=YES;
+        
     }
     return self;
 }
 
 -(id)initWithCenterViewController:(UIViewController *)centerViewController leftDrawerViewController:(UIViewController *)leftDrawerViewController{
+    
     return [self initWithCenterViewController:centerViewController leftDrawerViewController:leftDrawerViewController rightDrawerViewController:nil];
 }
 

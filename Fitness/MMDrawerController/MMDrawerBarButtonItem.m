@@ -41,14 +41,14 @@
 -(id)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if(self){
-        [self setMenuButtonNormalColor:[[UIColor whiteColor] colorWithAlphaComponent:0.9f]];
+        [self setMenuButtonNormalColor:[UIColor colorWithHue:31.0/360.0 saturation:99.0/100.0 brightness:87.0/100.0 alpha:0.9]];
         [self setMenuButtonHighlightedColor:[UIColor colorWithRed:139.0/255.0
                                                             green:135.0/255.0
                                                              blue:136.0/255.0
                                                             alpha:0.9f]];
         
-        [self setShadowNormalColor:[[UIColor blackColor] colorWithAlphaComponent:0.5f]];
-        [self setShadowHighlightedColor:[[UIColor blackColor] colorWithAlphaComponent:0.2f]];
+       [self setShadowNormalColor:[[UIColor whiteColor] colorWithAlphaComponent:0.5f]];
+        [self setShadowHighlightedColor:[[UIColor whiteColor] colorWithAlphaComponent:0.2f]];
     }
     return self;
 }
@@ -241,7 +241,9 @@
 -(id)initWithTarget:(id)target action:(SEL)action{
     
     if((floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_6_1)){
-        return [self initWithImage:[self.class drawerButtonItemImage]
+        
+                
+        return [self initWithImage:[UIImage imageNamed:@"menu1.png"]
                              style:UIBarButtonItemStylePlain
                             target:target
                             action:action];

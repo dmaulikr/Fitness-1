@@ -7,6 +7,9 @@
 //
 
 #import "ISMenuViewController.h"
+#import "ISAppDelegate.h"
+#import "ISSetWorkoutGoalViewController.h"
+#import "macros.txt"
 
 @interface ISMenuViewController ()
 
@@ -26,9 +29,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+   [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
+    self.wantsFullScreenLayout=YES;
+    
+    UITapGestureRecognizer *tapOnView = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(displayWorkoutGoals:)] ;
+    tapOnView.numberOfTapsRequired=1;
+    [self.workoutGoalsView addGestureRecognizer:tapOnView];
     // Do any additional setup after loading the view from its nib.
+    
 }
 
+
+
+-(void) displayWorkoutGoals:(id)sender
+{
+    [[(ISAppDelegate *)[[UIApplication sharedApplication]delegate] drawerController] toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
+    [(UINavigationController*)[(ISAppDelegate *)[[UIApplication sharedApplication]delegate] drawerController].centerViewController pushViewController:[[ISSetWorkoutGoalViewController alloc] initWithNibName:nil bundle:nil] animated:YES];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

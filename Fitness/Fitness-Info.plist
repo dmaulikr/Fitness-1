@@ -30,6 +30,8 @@
 		<string>HelveticaNeueLTCom-Roman</string>
 		<key>Arial</key>
 		<string>HelveticaWorld-Regular</string>
+		<key>Helvetica Neue</key>
+		<string>HelveticaNeueLTCom-Roman</string>
 	</dict>
 	<key>UIAppFonts</key>
 	<array>

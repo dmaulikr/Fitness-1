@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ISMenuViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIView *workoutGoalsView;
 
 @end

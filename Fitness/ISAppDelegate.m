@@ -17,11 +17,12 @@
 - (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     ISDashboardViewController *dashboardVC = [[ISDashboardViewController alloc]initWithNibName:nil bundle:nil];
-    ISMenuViewController *leftVC = [[ISMenuViewController alloc]initWithNibName:nil bundle:nil];
-    UINavigationController *navVC = [[UINavigationController alloc]initWithRootViewController:dashboardVC];
+    ISMenuViewController *menuVC = [[ISMenuViewController alloc]initWithNibName:nil bundle:nil];
+    UINavigationController *dashboardNVC = [[UINavigationController alloc]initWithRootViewController:dashboardVC];
    
     
-    self.drawerController= [[MMDrawerController alloc]initWithCenterViewController:navVC leftDrawerViewController:leftVC];
+    
+    self.drawerController= [[MMDrawerController alloc]initWithCenterViewController:dashboardNVC leftDrawerViewController:menuVC];
     
     
     [self.drawerController
