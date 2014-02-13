@@ -36,10 +36,8 @@
 {
     [super viewDidLoad];
     [self setupNavigationBar];
-    
-   
+       
 }
-
 
 
 //--------------------------------setting up navigation bar--------------------------------------
@@ -48,7 +46,7 @@
 {
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackTranslucent];
     self.wantsFullScreenLayout=YES;
-    
+    self.navigationController.navigationBar.translucent=NO;
     if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")) {
         [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithRed:254.0/255.0 green:247.0/255.0 blue:235.0/255.0 alpha:1.0]];
     }

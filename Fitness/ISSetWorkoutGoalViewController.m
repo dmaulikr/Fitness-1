@@ -46,6 +46,10 @@
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackTranslucent];
     self.wantsFullScreenLayout=YES;
     
+    
+    self.navigationController.navigationBar.translucent=NO;
+    
+    
     UILabel *titleLable=[[UILabel alloc]initWithFrame:CGRectMake(0, 0, 100, 19)];
     
     titleLable.backgroundColor=[UIColor clearColor];
@@ -56,13 +60,36 @@
     self.navigationItem.titleView=titleLable;
     self.navigationItem.titleView.backgroundColor=[UIColor clearColor];
     
-    UIImage *backImage=[UIImage imageNamed:@"back.png"];
-    [self.navigationItem.leftBarButtonItem setImage:backImage];
     
+    UIButton *backButtonCustom = [UIButton buttonWithType:UIButtonTypeCustom];
+    [backButtonCustom setFrame:CGRectMake(0.0f, 0.0f, 25.0f, 25.0f)];
+    [backButtonCustom addTarget:self action:@selector(goBack:) forControlEvents:UIControlEventTouchUpInside];
+    [backButtonCustom setImage:[UIImage imageNamed:@"back1.png"] forState:UIControlStateNormal];
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithCustomView:backButtonCustom];
+    
+   
+   // [backButton setTintColor: [UIColor colorWithHue:31.0/360.0 saturation:99.0/100.0 brightness:87.0/100.0 alpha:1]];
+    [self.navigationItem setLeftBarButtonItem:backButton];
     
     
 }
+-(void)goBack:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
 
+
+//--------------------------hiding keyboard---------------------------------
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    //    for (UIView * txt in self.subviews){
+    //        if (!([txt isKindOfClass:[UITextField class]] && [txt isFirstResponder])) {
+    //            [self.view endEditing:YES];
+    //        }
+    //
+    //    }
+    
+    [self.view endEditing:YES];
+}
 
 
 

@@ -32,12 +32,15 @@
 		<string>HelveticaWorld-Regular</string>
 		<key>Helvetica Neue</key>
 		<string>HelveticaNeueLTCom-Roman</string>
+		<key>Helvetica</key>
+		<string>Helvetica37-CondensedThin</string>
 	</dict>
 	<key>UIAppFonts</key>
 	<array>
 		<string>helvetica-world.ttf</string>
 		<string>helvetica-neue-lt-com-55-roman.ttf</string>
 		<string>comic sans.ttf</string>
+		<string>helvetica-condensed-thin.ttf</string>
 	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
