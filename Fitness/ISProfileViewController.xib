@@ -447,16 +447,8 @@
         <image name="head bg.png" width="640" height="129"/>
         <image name="mid img.png" width="640" height="290"/>
         <image name="radoi.png" width="15" height="15"/>
-        <image name="radoi.png" width="15" height="15"/>
         <image name="register btn.png" width="200" height="70"/>
         <image name="text box bg.png" width="600" height="550"/>
-        <image name="text.png" width="400" height="45"/>
-        <image name="text.png" width="400" height="45"/>
-        <image name="text.png" width="400" height="45"/>
-        <image name="text.png" width="400" height="45"/>
-        <image name="text.png" width="400" height="45"/>
-        <image name="text.png" width="400" height="45"/>
-        <image name="text.png" width="400" height="45"/>
         <image name="text.png" width="400" height="45"/>
     </resources>
 </document>
