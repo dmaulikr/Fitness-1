@@ -10,5 +10,6 @@
 
 @interface ISMenuViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIView *workoutGoalsView;
+@property (weak, nonatomic) IBOutlet UIView *hrMonitorView;
 
 @end

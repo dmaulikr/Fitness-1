@@ -104,6 +104,23 @@
 		BB779E6C18AA5A3E009C2D8C /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = BB779E6518AA5A3E009C2D8C /* MMDrawerVisualState.m */; };
 		BB779E6D18AA5A3E009C2D8C /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BB779E6718AA5A3E009C2D8C /* MMExampleDrawerVisualStateManager.m */; };
 		BB779E6E18AA5A3E009C2D8C /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB779E6918AA5A3E009C2D8C /* UIViewController+MMDrawerController.m */; };
+		BBAB938B18ADE0F60002A26C /* ISConnectionManagerCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAB938918ADE0F60002A26C /* ISConnectionManagerCellViewController.m */; };
+		BBAB938C18ADE0F60002A26C /* ISConnectionManagerCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBAB938A18ADE0F60002A26C /* ISConnectionManagerCellViewController.xib */; };
+		BBAB939618ADE3860002A26C /* 08-connection manager.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBAB938E18ADE3860002A26C /* 08-connection manager.jpg */; };
+		BBAB939718ADE3860002A26C /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAB939018ADE3860002A26C /* back.png */; };
+		BBAB939818ADE3860002A26C /* black-line-640.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAB939118ADE3860002A26C /* black-line-640.png */; };
+		BBAB939918ADE3860002A26C /* device.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAB939218ADE3860002A26C /* device.png */; };
+		BBAB939A18ADE3860002A26C /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAB939318ADE3860002A26C /* line.png */; };
+		BBAB939B18ADE3860002A26C /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAB939418ADE3860002A26C /* refresh.png */; };
+		BBAB939C18ADE3860002A26C /* selected.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAB939518ADE3860002A26C /* selected.png */; };
+		BBAB93A418ADE5CC0002A26C /* 09-heart rate monitoring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBAB939E18ADE5CC0002A26C /* 09-heart rate monitoring.jpg */; };
+		BBAB93A518ADE5CC0002A26C /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAB93A018ADE5CC0002A26C /* back.png */; };
+		BBAB93A618ADE5CC0002A26C /* date.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAB93A118ADE5CC0002A26C /* date.png */; };
+		BBAB93A718ADE5CC0002A26C /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAB93A218ADE5CC0002A26C /* line.png */; };
+		BBAB93AC18ADE5F70002A26C /* ISHRMonitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAB93AA18ADE5F70002A26C /* ISHRMonitorViewController.m */; };
+		BBAB93AD18ADE5F70002A26C /* ISHRMonitorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBAB93AB18ADE5F70002A26C /* ISHRMonitorViewController.xib */; };
+		BBAB93AF18ADE9AA0002A26C /* textHR.png in Resources */ = {isa = PBXBuildFile; fileRef = BBAB93AE18ADE9AA0002A26C /* textHR.png */; };
+		BBAB93B118ADFE0F0002A26C /* ISConnectionManagerTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBAB93B018ADFE0F0002A26C /* ISConnectionManagerTableCell.xib */; };
 		BBFEA65B18AA08CB00EDC8A7 /* helvetica-neue-lt-com-55-roman.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBFEA65A18AA08CB00EDC8A7 /* helvetica-neue-lt-com-55-roman.ttf */; };
 /* End PBXBuildFile section */
 
@@ -232,6 +249,25 @@
 		BB779E6718AA5A3E009C2D8C /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
 		BB779E6818AA5A3E009C2D8C /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
 		BB779E6918AA5A3E009C2D8C /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		BBAB938818ADE0F60002A26C /* ISConnectionManagerCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISConnectionManagerCellViewController.h; sourceTree = "<group>"; };
+		BBAB938918ADE0F60002A26C /* ISConnectionManagerCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISConnectionManagerCellViewController.m; sourceTree = "<group>"; };
+		BBAB938A18ADE0F60002A26C /* ISConnectionManagerCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISConnectionManagerCellViewController.xib; sourceTree = "<group>"; };
+		BBAB938E18ADE3860002A26C /* 08-connection manager.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "08-connection manager.jpg"; sourceTree = "<group>"; };
+		BBAB939018ADE3860002A26C /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		BBAB939118ADE3860002A26C /* black-line-640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-line-640.png"; sourceTree = "<group>"; };
+		BBAB939218ADE3860002A26C /* device.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = device.png; sourceTree = "<group>"; };
+		BBAB939318ADE3860002A26C /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		BBAB939418ADE3860002A26C /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		BBAB939518ADE3860002A26C /* selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected.png; sourceTree = "<group>"; };
+		BBAB939E18ADE5CC0002A26C /* 09-heart rate monitoring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "09-heart rate monitoring.jpg"; sourceTree = "<group>"; };
+		BBAB93A018ADE5CC0002A26C /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		BBAB93A118ADE5CC0002A26C /* date.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date.png; sourceTree = "<group>"; };
+		BBAB93A218ADE5CC0002A26C /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		BBAB93A918ADE5F70002A26C /* ISHRMonitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISHRMonitorViewController.h; sourceTree = "<group>"; };
+		BBAB93AA18ADE5F70002A26C /* ISHRMonitorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISHRMonitorViewController.m; sourceTree = "<group>"; };
+		BBAB93AB18ADE5F70002A26C /* ISHRMonitorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISHRMonitorViewController.xib; sourceTree = "<group>"; };
+		BBAB93AE18ADE9AA0002A26C /* textHR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textHR.png; sourceTree = "<group>"; };
+		BBAB93B018ADFE0F0002A26C /* ISConnectionManagerTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISConnectionManagerTableCell.xib; sourceTree = "<group>"; };
 		BBFEA65A18AA08CB00EDC8A7 /* helvetica-neue-lt-com-55-roman.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "helvetica-neue-lt-com-55-roman.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -303,6 +339,10 @@
 				BB0B80C318ACC9E800BCC2E0 /* ISReminderCellViewController.h */,
 				BB0B80C418ACC9E800BCC2E0 /* ISReminderCellViewController.m */,
 				BB0B80C518ACC9E800BCC2E0 /* ISReminderCellViewController.xib */,
+				BBAB938818ADE0F60002A26C /* ISConnectionManagerCellViewController.h */,
+				BBAB938918ADE0F60002A26C /* ISConnectionManagerCellViewController.m */,
+				BBAB938A18ADE0F60002A26C /* ISConnectionManagerCellViewController.xib */,
+				BBAB93B018ADFE0F0002A26C /* ISConnectionManagerTableCell.xib */,
 			);
 			name = "sub screen";
 			sourceTree = "<group>";
@@ -420,6 +460,9 @@
 				BB005F5A18AB3BD0003FAF8B /* ISSetWorkoutGoalViewController.h */,
 				BB005F5B18AB3BD0003FAF8B /* ISSetWorkoutGoalViewController.m */,
 				BB005F5C18AB3BD0003FAF8B /* ISSetWorkoutGoalViewController.xib */,
+				BBAB93A918ADE5F70002A26C /* ISHRMonitorViewController.h */,
+				BBAB93AA18ADE5F70002A26C /* ISHRMonitorViewController.m */,
+				BBAB93AB18ADE5F70002A26C /* ISHRMonitorViewController.xib */,
 			);
 			name = screens;
 			sourceTree = "<group>";
@@ -427,6 +470,8 @@
 		BB11E4C018A8CA5900406313 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				BBAB939D18ADE5CC0002A26C /* heart rate monitoring */,
+				BBAB938D18ADE3860002A26C /* Connection Manager */,
 				BB0B80C818ACCA9A00BCC2E0 /* workout reminder */,
 				BB005F3918AB3BA4003FAF8B /* workout goals */,
 				BB779E5318AA56F4009C2D8C /* menu */,
@@ -564,6 +609,48 @@
 			path = MMDrawerController;
 			sourceTree = "<group>";
 		};
+		BBAB938D18ADE3860002A26C /* Connection Manager */ = {
+			isa = PBXGroup;
+			children = (
+				BBAB938E18ADE3860002A26C /* 08-connection manager.jpg */,
+				BBAB938F18ADE3860002A26C /* 1x */,
+			);
+			path = "Connection Manager";
+			sourceTree = "<group>";
+		};
+		BBAB938F18ADE3860002A26C /* 1x */ = {
+			isa = PBXGroup;
+			children = (
+				BBAB939018ADE3860002A26C /* back.png */,
+				BBAB939118ADE3860002A26C /* black-line-640.png */,
+				BBAB939218ADE3860002A26C /* device.png */,
+				BBAB939318ADE3860002A26C /* line.png */,
+				BBAB939418ADE3860002A26C /* refresh.png */,
+				BBAB939518ADE3860002A26C /* selected.png */,
+			);
+			path = 1x;
+			sourceTree = "<group>";
+		};
+		BBAB939D18ADE5CC0002A26C /* heart rate monitoring */ = {
+			isa = PBXGroup;
+			children = (
+				BBAB939E18ADE5CC0002A26C /* 09-heart rate monitoring.jpg */,
+				BBAB939F18ADE5CC0002A26C /* 1x */,
+			);
+			path = "heart rate monitoring";
+			sourceTree = "<group>";
+		};
+		BBAB939F18ADE5CC0002A26C /* 1x */ = {
+			isa = PBXGroup;
+			children = (
+				BBAB93AE18ADE9AA0002A26C /* textHR.png */,
+				BBAB93A018ADE5CC0002A26C /* back.png */,
+				BBAB93A118ADE5CC0002A26C /* date.png */,
+				BBAB93A218ADE5CC0002A26C /* line.png */,
+			);
+			path = 1x;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -645,13 +732,17 @@
 				BB779E5218AA518B009C2D8C /* ISMenuViewController.xib in Resources */,
 				BB005F4E18AB3BA4003FAF8B /* radoi.png in Resources */,
 				BB779E2818AA4765009C2D8C /* report.png in Resources */,
+				BBAB93A618ADE5CC0002A26C /* date.png in Resources */,
 				BB779DE918AA4186009C2D8C /* radoi.png in Resources */,
 				BB779DE518AA4186009C2D8C /* radio-sel@1x.png in Resources */,
+				BBAB93AF18ADE9AA0002A26C /* textHR.png in Resources */,
 				BB779E2718AA4765009C2D8C /* path-on-map.png in Resources */,
+				BBAB939718ADE3860002A26C /* back.png in Resources */,
 				BB779E2018AA4765009C2D8C /* cal.png in Resources */,
 				BB0B80DA18ACCA9A00BCC2E0 /* delet.png in Resources */,
 				BB779E1E18AA4765009C2D8C /* black.png in Resources */,
 				BB779E2918AA4765009C2D8C /* speed-icn.png in Resources */,
+				BBAB939618ADE3860002A26C /* 08-connection manager.jpg in Resources */,
 				BB005F5218AB3BA4003FAF8B /* text.png in Resources */,
 				BB005F5918AB3BA4003FAF8B /* text.png in Resources */,
 				BB779E2218AA4765009C2D8C /* hr-icn.png in Resources */,
@@ -662,12 +753,15 @@
 				BB779DEA18AA4186009C2D8C /* line@1x.png in Resources */,
 				BB0B80D918ACCA9A00BCC2E0 /* back.png in Resources */,
 				BB11E4CB18A8CA5900406313 /* head bg.png in Resources */,
+				BBAB939B18ADE3860002A26C /* refresh.png in Resources */,
 				BB779E2518AA4765009C2D8C /* mile-icn.png in Resources */,
 				BB779E5A18AA56F4009C2D8C /* line.png in Resources */,
 				BB779E2118AA4765009C2D8C /* head-bg.png in Resources */,
+				BBAB939A18ADE3860002A26C /* line.png in Resources */,
 				BB11E4BF18A8C9C400406313 /* ISUserProfileViewController.xib in Resources */,
 				BB779E5C18AA56F4009C2D8C /* orange.png in Resources */,
 				BB11E4CC18A8CA5900406313 /* mid img.png in Resources */,
+				BBAB939918ADE3860002A26C /* device.png in Resources */,
 				BB779E5918AA56F4009C2D8C /* 03-dashboard_slider_edited.jpg in Resources */,
 				BB005F5518AB3BA4003FAF8B /* radoi.png in Resources */,
 				BB0B80DD18ACCA9A00BCC2E0 /* line.png in Resources */,
@@ -678,6 +772,7 @@
 				BB779E2C18AA4765009C2D8C /* steps-icn.png in Resources */,
 				BB005F5118AB3BA4003FAF8B /* start.png in Resources */,
 				BB779E2E18AA4765009C2D8C /* time-icn.png in Resources */,
+				BBAB93B118ADFE0F0002A26C /* ISConnectionManagerTableCell.xib in Resources */,
 				BB11E4D218A8CD3D00406313 /* helvetica-world.ttf in Resources */,
 				BB779E3118AA4765009C2D8C /* workout-done-icn.png in Resources */,
 				BB779DDA18AA1DED009C2D8C /* comic sans.ttf in Resources */,
@@ -691,10 +786,12 @@
 				BB005F4D18AB3BA4003FAF8B /* radio-sel.png in Resources */,
 				BB0B80DE18ACCA9A00BCC2E0 /* new.png in Resources */,
 				BB779E4D18AA4783009C2D8C /* ISDashboardViewController.xib in Resources */,
+				BBAB93A518ADE5CC0002A26C /* back.png in Resources */,
 				BB779E2A18AA4765009C2D8C /* speed.png in Resources */,
 				BB11E4CE18A8CA5900406313 /* text box bg.png in Resources */,
 				BB005F5718AB3BA4003FAF8B /* start goal.png in Resources */,
 				BB005F5418AB3BA4003FAF8B /* radio sel.png in Resources */,
+				BBAB939C18ADE3860002A26C /* selected.png in Resources */,
 				BB1F96A518AC9A9B0023A174 /* ribbon-bg1.png in Resources */,
 				BB11E4CF18A8CA5900406313 /* text.png in Resources */,
 				BB0B80DC18ACCA9A00BCC2E0 /* edit.png in Resources */,
@@ -705,16 +802,21 @@
 				BB0EE33618A3ADAB00E3EA63 /* InfoPlist.strings in Resources */,
 				BB005F5E18AB3BD0003FAF8B /* ISSetWorkoutGoalViewController.xib in Resources */,
 				BB779DE618AA4186009C2D8C /* radoi@1x.png in Resources */,
+				BBAB93AD18ADE5F70002A26C /* ISHRMonitorViewController.xib in Resources */,
 				BB005F5018AB3BA4003FAF8B /* start-goal.png in Resources */,
 				BB11E4C918A8CA5900406313 /* bg.png in Resources */,
 				BB779E2618AA4765009C2D8C /* mile.png in Resources */,
+				BBAB938C18ADE0F60002A26C /* ISConnectionManagerCellViewController.xib in Resources */,
 				BB779E5D18AA56F4009C2D8C /* orange@2x.png in Resources */,
 				BB779E3218AA4765009C2D8C /* workout-done.png in Resources */,
 				BB779E1F18AA4765009C2D8C /* cal-icn.png in Resources */,
 				BB005F5818AB3BA4003FAF8B /* start.png in Resources */,
 				BB779E1D18AA4765009C2D8C /* bg.png in Resources */,
+				BBAB93A418ADE5CC0002A26C /* 09-heart rate monitoring.jpg in Resources */,
+				BBAB93A718ADE5CC0002A26C /* line.png in Resources */,
 				BB0B80C718ACC9E800BCC2E0 /* ISReminderCellViewController.xib in Resources */,
 				BB0B80DB18ACCA9A00BCC2E0 /* disable-reminder.png in Resources */,
+				BBAB939818ADE3860002A26C /* black-line-640.png in Resources */,
 				BB0EE33E18A3ADAB00E3EA63 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -737,10 +839,12 @@
 				BB779E6C18AA5A3E009C2D8C /* MMDrawerVisualState.m in Sources */,
 				BB779DDE18AA3463009C2D8C /* UIFont+Replacement.m in Sources */,
 				BB779E6A18AA5A3E009C2D8C /* MMDrawerBarButtonItem.m in Sources */,
+				BBAB93AC18ADE5F70002A26C /* ISHRMonitorViewController.m in Sources */,
 				BB005F5D18AB3BD0003FAF8B /* ISSetWorkoutGoalViewController.m in Sources */,
 				BB779E6E18AA5A3E009C2D8C /* UIViewController+MMDrawerController.m in Sources */,
 				BB779E4C18AA4783009C2D8C /* ISDashboardViewController.m in Sources */,
 				BB3C66CB18A9EA2800CAA240 /* ISProfileViewController.m in Sources */,
+				BBAB938B18ADE0F60002A26C /* ISConnectionManagerCellViewController.m in Sources */,
 				BB11E4BE18A8C9C400406313 /* ISUserProfileViewController.m in Sources */,
 				BB779E5118AA518B009C2D8C /* ISMenuViewController.m in Sources */,
 				BB0EE33C18A3ADAB00E3EA63 /* ISAppDelegate.m in Sources */,

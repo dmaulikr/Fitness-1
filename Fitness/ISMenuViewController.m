@@ -10,6 +10,7 @@
 #import "ISAppDelegate.h"
 #import "ISSetWorkoutGoalViewController.h"
 #import "macros.txt"
+#import "ISHRMonitorViewController.h"
 
 @interface ISMenuViewController ()
 
@@ -32,9 +33,17 @@
    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
     self.wantsFullScreenLayout=YES;
     
-    UITapGestureRecognizer *tapOnView = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(displayWorkoutGoals:)] ;
-    tapOnView.numberOfTapsRequired=1;
-    [self.workoutGoalsView addGestureRecognizer:tapOnView];
+    UITapGestureRecognizer *tapOnWorkoutView = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(displayWorkoutGoals:)] ;
+    tapOnWorkoutView.numberOfTapsRequired=1;
+    [self.workoutGoalsView addGestureRecognizer:tapOnWorkoutView];
+    
+    
+    
+    UITapGestureRecognizer *tapOnHRView = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(displayHRMonitor:)] ;
+    tapOnHRView.numberOfTapsRequired=1;
+    [self.hrMonitorView addGestureRecognizer:tapOnHRView];
+    
+    
     // Do any additional setup after loading the view from its nib.
     
 }
@@ -46,6 +55,14 @@
     [[(ISAppDelegate *)[[UIApplication sharedApplication]delegate] drawerController] toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
     [(UINavigationController*)[(ISAppDelegate *)[[UIApplication sharedApplication]delegate] drawerController].centerViewController pushViewController:[[ISSetWorkoutGoalViewController alloc] initWithNibName:nil bundle:nil] animated:YES];
 }
+
+-(void) displayHRMonitor:(id)sender
+{
+    [[(ISAppDelegate *)[[UIApplication sharedApplication]delegate] drawerController] toggleDrawerSide:MMDrawerSideLeft animated:YES completion:nil];
+    [(UINavigationController*)[(ISAppDelegate *)[[UIApplication sharedApplication]delegate] drawerController].centerViewController pushViewController:[[ISHRMonitorViewController alloc] initWithNibName:nil bundle:nil] animated:YES];
+}
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

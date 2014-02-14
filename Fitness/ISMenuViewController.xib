@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ISMenuViewController">
             <connections>
+                <outlet property="hrMonitorView" destination="9ZT-08-kAj" id="5R3-z8-qC9"/>
                 <outlet property="view" destination="1" id="3"/>
                 <outlet property="workoutGoalsView" destination="TbI-36-TXH" id="0Hp-Ci-xLw"/>
             </connections>
@@ -35,7 +36,7 @@
                     <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TbI-36-TXH" userLabel="View 1">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TbI-36-TXH" userLabel="View Workout Goals">
                     <rect key="frame" x="0.0" y="65" width="320" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
@@ -73,7 +74,7 @@
                         <constraint firstAttribute="centerY" secondItem="TWN-uE-z7w" secondAttribute="centerY" id="wwj-Sb-SKx"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xq5-2u-Zsn" userLabel="View 2">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xq5-2u-Zsn" userLabel="View Connection Manager">
                     <rect key="frame" x="0.0" y="109" width="320" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
@@ -111,7 +112,7 @@
                         <constraint firstItem="6Ix-Qr-yqA" firstAttribute="leading" secondItem="Xq5-2u-Zsn" secondAttribute="leading" constant="10" id="xqG-cI-RAq"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ZT-08-kAj" userLabel="View 3">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ZT-08-kAj" userLabel="View HR Monitoring">
                     <rect key="frame" x="0.0" y="153" width="320" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
@@ -177,7 +178,7 @@
     <resources>
         <image name="bg.png" width="321" height="570"/>
         <image name="head-bg.png" width="320" height="65"/>
-        <image name="line.png" width="265" height="1"/>
+        <image name="line.png" width="310" height="1"/>
         <image name="orange.png" width="12" height="21"/>
     </resources>
 </document>
